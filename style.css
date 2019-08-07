@@ -1,0 +1,71 @@
+body {
+  background-color: #FFDAB9;
+  color:  #808000;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+h1 {
+  color: #BDB76B;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  line-height: 0.5em;
+}
+
+h2 {
+  color: #BDB76B;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+ ul {
+  list-style-type: none;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+a {
+  color: #FFE4B5;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#profile {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  position: center;
+}
+
+.card-rectangle {
+  background: #FFFFE0;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 10px;
+  text-align: center;
+}
+
+#banner {
+  background: #FFEFD5;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 10px;
+}
+
+#button-rounded {
+  background: #FFA07A;
+  padding: 10px;
+  border-radius: 20px;
+}
