@@ -43,7 +43,7 @@ a:hover {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   position: center;
 }
 
@@ -68,4 +68,23 @@ a:hover {
   background: #FFA07A;
   padding: 10px;
   border-radius: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
