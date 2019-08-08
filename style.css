@@ -25,7 +25,8 @@ h2 {
 }
 
 .footer-nav li {
-  display: inline;
+  display: inline-block;
+  padding: 0px 70px;
 }
 
 a {
@@ -43,7 +44,7 @@ a:hover {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  margin-bottom: 20px;
+  margin: 10px;
   position: center;
 }
 
@@ -52,7 +53,7 @@ a:hover {
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  margin: 10px;
+  margin: 10px 50px;
   text-align: center;
 }
 
@@ -61,7 +62,7 @@ a:hover {
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  margin: 10px;
+  margin: 10px 50px;
 }
 
 #button-rounded {
